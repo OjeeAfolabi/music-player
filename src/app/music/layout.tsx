@@ -13,6 +13,6 @@ const MusicLayout = ({
       <div>{children}</div>
     </div>
   );
-};
+}; 
 
 export default MusicLayout;
