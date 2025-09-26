@@ -5,7 +5,7 @@ import React from "react";
 const Sidebar = async () => {
   await new Promise((resolve) =>
     setTimeout(() => {
-      resolve("completed");
+      resolve("Content is currently loading... ");
     }, 2000)
   );
   return (
