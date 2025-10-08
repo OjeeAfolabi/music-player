@@ -50,7 +50,7 @@ const Songs = async () => {
   ];
 
   return (
-    <div className="w-full px-4">
+    <div className="w-full px-8">
       <h2 className="text-3xl text-white mt-8 font-fold mb-6">
         Songs Collection
       </h2>
