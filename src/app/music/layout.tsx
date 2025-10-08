@@ -10,10 +10,10 @@ const MusicLayout = ({
   songs: ReactNode;
 }) => {
   return (
-    <div className="">
+    <div className="flex w-full">
+      <div className="">{sidebar}</div>
+      <div className="px-2 w-full">{songs}</div>
       <div>{children}</div>
-      <div>{sidebar}</div>
-      <div className="px-2">{songs}</div>
     </div>
   );
 };
