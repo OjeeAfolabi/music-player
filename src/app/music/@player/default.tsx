@@ -1,7 +1,7 @@
 import React from "react";
 
 const DefaultPlayer = () => {
-  return <div>DefaultPlayer</div>;
+  return null;
 };
 
 export default DefaultPlayer;
